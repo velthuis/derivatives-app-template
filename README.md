@@ -20,7 +20,7 @@ the critic's review, examiner practice), scored against `RUBRIC.md`.
 | `AGENTS.md` | The agent | Standing rules it reads every session. Add a rule when it repeats a mistake |
 | `PLAN.md` | The agent | Notes on the current task, so a new session can pick up where the last one stopped |
 | `app.py`, `pricing.py`, `tests/`, `data/` | Code | The page, the formulas, the checks, the dated data files |
-| `docs/` | You, when needed | Guides: setting up your agent, how Streamlit works, git as a team |
+| `docs/` | You, when needed | Guides: your laptop setup, setting up your agent, how Streamlit works, git as a team |
 
 To read a `.md` file with its formatting: on github.com, click it. In a Codespace, right-click it
 and choose **Open Preview** (Ctrl+Shift+V).
@@ -55,7 +55,13 @@ Run `pytest`. Each test compares our code with a number we checked independently
 The agent skill in `.agents/skills/check-the-numbers/` tells coding agents how to add checks like these.
 
 ## How to run
-In a GitHub Codespace (or locally with Python 3.12):
+First make your own repository: on the template's page, **Use this template → Create a new
+repository** (one per team). Don't open a Codespace on the template itself: when you commit there,
+GitHub quietly turns your work into a public fork of the template, and "Open in a codespace" from
+the template button keeps your work only inside that codespace until you publish it.
+
+In a GitHub Codespace (at home), or in VS Code on your laptop (works on campus too; first follow
+`docs/local-setup.md`):
 ```
 pip install -r requirements.txt
 pytest
