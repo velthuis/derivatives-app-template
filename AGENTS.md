@@ -14,15 +14,18 @@ and current. When an agent makes the same mistake twice, add a rule here.
 ## Structure
 - `pricing.py` and any other modules: formulas only, no Streamlit code.
 - `app.py`: Streamlit user interface only. It calls functions from the modules.
-- `tests/`: pytest. Every formula gets at least one test against a number we checked
-  independently (textbook example, DerivaGem, or a hand calculation).
+- `tests/`: pytest. Every formula gets at least one test against an independent reference: a
+  worked example we give you, the data itself, another method, or an identity (see the
+  check-the-numbers skill). You can't see our textbooks, DerivaGem or paid data, so we give you
+  those numbers. If we haven't, ask; never use one from memory.
 - `data/`: dated snapshots named `<source>_<YYYY-MM-DD>.csv`. Record each one in the README's Data section.
 
 ## When you plan (plan mode, or when we say "plan first")
 Do not edit files. A plan lists:
 1. The files you will change, and why.
-2. Each test you will add and the independent number it compares with (textbook example,
-   DerivaGem, a hand calculation, or an identity such as put-call parity).
+2. Each test you will add and the independent reference it compares with: a number we give you
+   (textbook example, DerivaGem, a hand calculation, a published figure), the data itself,
+   another method, or an identity such as put-call parity. List the numbers you still need from us.
 3. What the app will show, with units and labels for assumptions and scenarios.
 4. What could make the numbers wrong (units, sign conventions, bid vs. ask, stale data).
 Keep each step small enough for us to review in one sitting.

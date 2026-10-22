@@ -1,7 +1,8 @@
 """Tests check our numbers against values we verified independently.
 
-Replace or extend these with checks for your own formulas: a textbook example,
-a DerivaGem result, or a calculation you did by hand.
+Replace or extend these with checks for your own formulas: a worked example (textbook,
+DerivaGem, a hand calculation, a published figure), the data itself, another method, or an
+identity. Name the source in a comment, as below.
 """
 from math import exp
 
