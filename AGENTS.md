@@ -14,6 +14,8 @@ and current. When an agent makes the same mistake twice, add a rule here.
 ## Structure
 - `pricing.py` and any other modules: formulas only, no Streamlit code.
 - `app.py`: Streamlit user interface only. It calls functions from the modules.
+- Dollar amounts in `st.markdown`, `st.write`, `st.caption` or a widget label: write `\$`. Streamlit
+  shows text between two `$` signs as LaTeX math.
 - `tests/`: pytest. Every formula gets at least one test against an independent reference: a
   worked example we give you, the data itself, another method, or an identity (see the
   check-the-numbers skill). You can't see our textbooks, DerivaGem or paid data, so we give you
