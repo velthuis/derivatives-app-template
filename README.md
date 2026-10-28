@@ -96,4 +96,4 @@ to read the file and follow it (`docs/agent-setup.md` has the prompt).
 
 ## Working as a team
 See [`docs/git-and-teamwork.md`](docs/git-and-teamwork.md): pull before you start, one owner per
-file, push daily, and what to do when git reports a merge conflict.
+file, push when a piece of work is done, and what to do when git reports a merge conflict.

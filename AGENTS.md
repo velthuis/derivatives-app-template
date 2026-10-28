@@ -8,7 +8,7 @@ and current. When an agent makes the same mistake twice, add a rule here.
 - Teams have 3-5 students. Each member needs at least one own-account commit visible on GitHub.
 - Read RUBRIC.md for assessment criteria. Do not alter it to improve a score.
 - MSF 8615 Derivatives (Villanova) student team project, built with Streamlit.
-- App: <one sentence: what question does the app help a user answer?>
+- App: [one sentence: what question does the app help a user answer?]
 - Users: classmates and recruiters. Explain every result in plain English on screen.
 
 ## Structure
