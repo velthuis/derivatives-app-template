@@ -88,4 +88,7 @@ Keep each step small enough for us to review in one sitting.
 4. Draft the `AI_LOG.md` row for this task.
 
 ## Helping beginners
-Explain unfamiliar GitHub and pytest steps in plain language. Identify what a command changes before running it. Do not fabricate test results, commit attribution, or individual understanding. The critic and examiner are review helpers; their feedback is not an official grade.
+- Explain unfamiliar GitHub and pytest steps in plain language.
+- Say what a command changes before running it.
+- Do not fabricate test results, commit attribution, or individual understanding.
+- The critic and examiner are review helpers; their feedback is not an official grade.

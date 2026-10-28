@@ -5,13 +5,11 @@ your work reaches your teammates only when you **commit and push**, and theirs r
 when you **pull**. We all work on the `main` branch.
 
 ## Team size and your own commit
-Teams have **3-5 students**. One member creates the repository and invites the other **2-4**.
-Every member makes **at least one commit under their own GitHub account** that adds something the
-project needs: a formula, a test, a data file and its notes, part of the README, or rows in
-`AI_LOG.md`. You decide what; an empty or placeholder file does not count. That commit is worth
-**5 points per student** (all or nothing). Check the history together, and never share accounts.
-The other **95 points are shared** by the team, and every member presents part of the group
-presentation and demo.
+Teams have **3-5 students**. One member creates the repository from the template and invites the
+others. Every member makes **at least one commit under their own GitHub account** that adds
+something the project needs: a formula, a test, a data file and its notes, part of the README, or
+rows in `AI_LOG.md`. An empty or placeholder file does not count (`RUBRIC.md`, criterion 7). Check
+the history together, and never share accounts.
 
 ## Every session
 1. `git pull`: get your teammates' latest work before you change anything.
